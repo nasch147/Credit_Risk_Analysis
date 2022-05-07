@@ -5,32 +5,43 @@ The goal of the analysis is to utilize unsupervised machine learning tools to he
 
 ## Results
 
-
-
 ### Random Oversampling
-
-
+![random over](random_over.png)
+- Accuracy: 0.625
+- Precision: High - 0.01 Low - 1.0
+- Recall: High - 0.6 Low - 0.65
 
 ### SMOTE Oversampling
-
-
+![smote](smote_over.png)
+- Accuracy: 0.625
+- Precision: High - 0.01 Low - 1.0
+- Recall: High - 0.64 Low - 0.66
 
 ### Undersampling
-
-
+![under](centroid.png)
+- Accuracy: 0.651
+- Precision: High - 0.01 Low - 1.0
+- Recall: High - 0.61 Low - 0.45
 
 ### Combination sampling
-
-
+![combo](combo.png)
+- Accuracy: 0.529
+- Precision: High - 0.01 Low - 1.0
+- Recall: High - 0.7 low - 0.57
 
 ### Random Forrest
-
-
+![random_forrest](forrest.png)
+- Accuracy: 0.788
+- Precision: High - 0.04 Low - 1.0
+- Recall:  High - 0.67 Low - 0.91
 
 ### AdaBoost
-
-
+![ada](adaboost.png)
+- Accuracy: 0.925
+- Precision: High - 0.07  low- 1.0
+- Recall: High - 0.91 Low - 0.94
+- 
 ## Summary
-
+Overall, our ensemble learning models had higher levels of overall accuracy as compared to other techniques. Further, the AdaBoost model exhibited much higher accuracy in predicting low or high risk loans in the testing set. Additionally, this model was more precise and had a high level of recall. 
 
 
